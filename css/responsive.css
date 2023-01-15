@@ -26,6 +26,37 @@ media querise mobaile devises
     nav ul {
         flex-direction: column;
     }
+    .team-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .our-team {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .our-team img {
+        width: 100%;
+        height: 100%;
+    }
+    .info-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .project-main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .sponspors-list {
+        flex-direction: column;
+    }
+    .footer-section {
+        width: 100%;
+    }
+    .footer-section {
+        padding: 0px;
+    }
+    .team-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-box {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width:576px) {
@@ -76,6 +107,12 @@ media querise mobaile devises
     }
     .footer-section {
         padding: 0px;
+    }
+    .team-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-box img {
+        width: 100%;
     }
 }
 

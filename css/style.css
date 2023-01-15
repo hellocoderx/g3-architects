@@ -300,12 +300,13 @@ nav ul li {
 /* our team styles  */
 
 .in-team {
-    padding: 60px 120px;
+    padding: 60px 120px 0px 120px;
 }
 
 .team-row {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
 }
 
 .tm-info {
@@ -320,4 +321,8 @@ nav ul li {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+.tm-info {
+    padding-bottom: 50px;
 }
