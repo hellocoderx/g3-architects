@@ -295,3 +295,29 @@ nav ul li {
     text-align: center;
     background-color: #FFF4E7;
 }
+
+
+/* our team styles  */
+
+.in-team {
+    padding: 60px 120px;
+}
+
+.team-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.tm-info {
+    text-align: center;
+}
+
+.team-box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
